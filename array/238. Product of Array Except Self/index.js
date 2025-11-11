@@ -8,7 +8,6 @@ for (let i = 0; i < n; i++) {
     left *= nums[i];
 }
 
-// 🔧 multiply, not replace
 let right = 1;
 for (let i = n - 1; i >= 0; i--) {
     result[i] *= right;
